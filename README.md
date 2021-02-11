@@ -3,5 +3,5 @@ To run the sample project, you can either just run the `CucumberTestSuite` test 
 
 By default, the tests will run using Chrome. You can run them in Firefox by overriding the `driver` system property, e.g.
 ```
-$ "mvn" clean verify -Dwebdriver.driver=firefox
+$ mvn clean verify -Dwebdriver.driver=firefox
 ```
